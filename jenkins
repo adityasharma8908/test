@@ -1,7 +1,7 @@
 # How to install jenkins
 yum install java -y
-sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo -y
-sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key -y
+sudo wget -O /etc/yum.repos.d/jenkins.repo https://pkg.jenkins.io/redhat-stable/jenkins.repo 
+sudo rpm --import https://pkg.jenkins.io/redhat-stable/jenkins.io.key 
 yum install jenkins -y
 sudo systemctl enable jenkins
 sudo systemctl start jenkins
